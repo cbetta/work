@@ -38,7 +38,7 @@ activate :livereload
 activate :directory_indexes
 
 activate :s3_sync do |s3_sync|
-  s3_sync.bucket                     = 'bettaio'
+  s3_sync.bucket                     = ''
   s3_sync.region                     = 'eu-central-1'
   s3_sync.aws_access_key_id          = 'AKIAI7MLWZX43LYE2ILA'
   s3_sync.aws_secret_access_key      = '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'
@@ -47,7 +47,7 @@ end
 activate :cloudfront do |cf|
   cf.access_key_id = 'AKIAI7MLWZX43LYE2ILA'
   cf.secret_access_key = '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'
-  cf.distribution_id = 'E1MEX2ODNT3S93'
+  cf.distribution_id = ''
 end
 
 caching_policy 'text/html', max_age: 0, must_revalidate: true

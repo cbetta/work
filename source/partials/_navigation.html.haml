@@ -1,0 +1,17 @@
+#desktop-menu.ui.secondary.pointing.menu.inverted
+  .ui.text.container
+    %a.item.toc
+      %i.sidebar.icon
+    %a.item.image.floated.right
+      .ui.logo.icon.image{href: '/'}
+        = image_tag 'wb-white.jpg'
+    %a.item.name{href: '/', class: active('/', true)}
+      %strong Work
+      &nbsp;
+      %em Betta
+    %a.item{href: "mailto:work@betta.io", class: active('/blog')}
+      %i.icon.mail.outline.left
+      Contact
+    %a.ui.right.inverted.item{href: "https://betta.io"}
+      %i.icon.spy
+      About

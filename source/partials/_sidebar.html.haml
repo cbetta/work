@@ -1,0 +1,23 @@
+#sidebar.ui.vertical.inverted.sidebar.menu
+  .item
+    %a.ui.logo.icon.image{href: '/'}
+      = image_tag 'wb-white.jpg'
+    %a.name{href: '/'}
+      %strong Work
+      Betta
+  %a.item{href: "mailto:work@betta.io"}
+    %i.icon.mail.outline.left
+    Contact
+  .ui.item
+    %i.icon.code
+    Projects
+    .menu
+      %a.item{href: "https://github.com/nexmo/nexmo-cli"}
+        %i.icon.github
+        Nexmo CLI
+      %a.item{href: "https://getperksy.com"}
+        %i.icon.github
+        Perksy
+  %a.ui.right.inverted.item{href: "https://betta.io"}
+    %i.icon.spy
+    About

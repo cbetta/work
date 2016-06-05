@@ -1,7 +1,13 @@
 #services {
   border: 0px;
-  
+
   .segment {
     background-color: #222 !important;
+  }
+}
+
+@media (max-width: 660px) {
+  #services {
+    display: block;
   }
 }

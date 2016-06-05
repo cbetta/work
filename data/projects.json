@@ -1,0 +1,20 @@
+[
+  {
+    "title" : "Nexmo CLI",
+    "description" : "A CLI for the Nexmo communication API. Built in Javascript/ES6.",
+    "url" : "https://github.com/nexmo/nexmo-cli",
+    "icon" : "github"
+  },
+  {
+    "title" : "Doxie Ruby SDK",
+    "description" : "A Ruby SDK for the Doxie Go Wifi scanner.",
+    "url" : "https://github.com/cbetta/doxie",
+    "icon" : "github"
+  },
+  {
+    "title" : "Perksy API and Dashboard",
+    "description" : "A Rails backend and API for the Perksy app. Built using Trailblazer.",
+    "url" : "http://www.getperksy.com/",
+    "icon" : "linkify"
+  }
+]

@@ -35,21 +35,12 @@ default_description: Work Betta
   Recent projects
 
 .ui.relaxed.divided.list.inverted
-  .item
-    %i.large.middle.aligned.icon.icon-fixed-width.github
-    .content
-      %a.header{href: 'https://github.com/nexmo-cli'} Nexmo CLI
-      .description A CLI for the Nexmo communication API. Built in JS.
-  .item
-    %i.large.middle.aligned.icon.icon-fixed-width.github
-    .content
-      %a.header{href: 'https://github.com/cbetta/doxie'} Doxie Ruby SDK
-      .description A Ruby SDK for the Doxie Go Wifi scanner.
-  .item
-    %i.large.middle.aligned.icon.icon-fixed-width.linkify
-    .content
-      %a.header{href: 'http://www.getperksy.com/'} Perksy Backend
-      .description A Rails backend and API for the Perksy app. Built using Trailblazer.
+  - data.projects.each do |project|
+    .item
+      %i.large.middle.aligned.icon.icon-fixed-width{class: project['icon']}
+      .content
+        %a.header{href: project['url']}= project['title']
+        .description= project['description']
 
 %h2.ui.horizontal.divider
   %i.icon.code

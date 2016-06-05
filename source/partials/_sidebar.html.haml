@@ -12,15 +12,10 @@
     %i.icon.code
     Projects
     .menu
-      %a.item{href: "https://github.com/nexmo/nexmo-cli"}
-        %i.icon.github
-        Nexmo CLI
-      %a.item{href: "https://github.com/cbetta/doxie"}
-        %i.icon.github
-        Doxie Ruby SDK
-      %a.item{href: "http://www.getperksy.com/"}
-        %i.icon.linkify
-        Perksy
+      - data.projects.each do |project|
+        %a.item{href: project['url']}
+          %i.icon{ class: project['icon'] }
+          = project['title']
   %a.ui.right.inverted.item{href: "https://betta.io"}
     %i.icon.user
     About

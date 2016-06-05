@@ -7,31 +7,33 @@ default_description: Work Betta
 = image_tag 'workbetta.png', class: 'ui small circular image centered'
 
 %h1.ui.header.centered.name.inverted
-  %strong Work
-  Betta
+  Work Betta specializes in Developer Relations consulting and Full Stack web development
 
-%p.centered
-  Work Betta specializes in Developer Relations consulting and Full Stack web development.
+%h2.ui.horizontal.divider Our services
 
-%h5.ui.horizontal.divider Developer Relations
+#services.ui.horizontal.segments
+  .ui.segment
+    %h3.header Developer Relations
+    %p
+      We can help developer focussed technology companies to build out strategy
+      for their developer marketing strategy. We can help lead technology teams to
+      a path to ROI for their developer relations strategy.
 
-Work Betta can help developer focussed technology companies to build out strategy
-for their developer marketing strategy. We can help lead technology teams to
-a path to ROI for their developer relations strategy.
+  .ui.segment
+    %h3.header Developer Experience
+    %p
+      We can help building out documentation, samples, tutorials and talks
+      for developer products. We can assist in building the best tech teams to
+      build the best developer experience.
 
-%h5.ui.horizontal.divider Developer Experience
+  .ui.segment
+    %h3.header API Development
+    %p
+      We can help your product off the ground, assisting in full stack web
+      development including API design. We specialize in Rails, Ruby, Javascript, HTML,
+      CSS and more.
 
-Work Betta can help building out documentation, samples, tutorials and talks
-for developer products. We can assist in building the best tech teams to
-build the best developer experience.
-
-%h5.ui.horizontal.divider Web API Development
-
-Work Betta can help your product off the ground, assisting in full stack web
-development including API design. We specialize in Rails, Ruby, Javascript, HTML,
-CSS and more.
-
-%h4.ui.horizontal.divider
+%h2.ui.horizontal.divider
   Recent projects
 
 .ui.relaxed.divided.list.inverted
@@ -45,3 +47,6 @@ CSS and more.
     .content
       %a.header{href: 'https://getperksy.com/'} Perksy Backend
       .description A backend and API for the Perksy app
+
+%h2.ui.horizontal.divider
+  %i.icon.code

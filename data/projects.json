@@ -12,6 +12,12 @@
     "icon" : "github"
   },
   {
+    "title" : "Nexmo Blog Post: Two Factor Authentication",
+    "description" : "A tutorial and demo for Nexmo showcasing how to integrate Nexmo Verify into Rails",
+    "url" : "https://www.nexmo.com/blog/2016/06/07/two-factor-authentication-2fa-ruby-rails-devise-nexmo-verify/",
+    "icon" : "file outline"
+  },
+  {
     "title" : "Perksy API and Dashboard",
     "description" : "A Rails backend and API for the Perksy app. Built using Trailblazer.",
     "url" : "http://www.getperksy.com/",

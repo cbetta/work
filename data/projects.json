@@ -22,5 +22,11 @@
     "description" : "A Rails backend and API for the Perksy app. Built using Trailblazer.",
     "url" : "http://www.getperksy.com/",
     "icon" : "linkify"
+  },
+  {
+    "title" : "PayPal / Braintree Developer Relations",
+    "description" : "Over three years of experience of enterprise Developer Relations at Braintree/PayPal",
+    "url" : "https://developers.braintreepayments.com",
+    "icon" : "user"
   }
 ]

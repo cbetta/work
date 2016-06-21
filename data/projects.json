@@ -12,9 +12,9 @@
     "icon" : "github"
   },
   {
-    "title" : "Nexmo Blog Post: Two Factor Authentication",
-    "description" : "A tutorial and demo for Nexmo showcasing how to integrate Nexmo Verify into Rails",
-    "url" : "https://www.nexmo.com/blog/2016/06/07/two-factor-authentication-2fa-ruby-rails-devise-nexmo-verify/",
+    "title" : "Nexmo Blog Post: Voice Alerts",
+    "description" : "A tutorial and demo for Nexmo showcasing how to integrate Nexmo Text-to-Speech into Sinatra",
+    "url" : "https://www.nexmo.com/blog/2016/06/21/building-voice-alerts-broadcast-system-using-ruby-nexmo-text-speech-api/",
     "icon" : "file outline"
   },
   {
@@ -22,6 +22,12 @@
     "description" : "A Rails backend and API for the Perksy app. Built using Trailblazer.",
     "url" : "http://www.getperksy.com/",
     "icon" : "linkify"
+  },
+  {
+    "title" : "Nexmo Blog Post: Two Factor Authentication",
+    "description" : "A tutorial and demo for Nexmo showcasing how to integrate Nexmo Verify into Rails",
+    "url" : "https://www.nexmo.com/blog/2016/06/07/two-factor-authentication-2fa-ruby-rails-devise-nexmo-verify/",
+    "icon" : "file outline"
   },
   {
     "title" : "PayPal / Braintree Developer Relations",

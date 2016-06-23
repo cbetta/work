@@ -40,13 +40,13 @@ activate :directory_indexes
 activate :s3_sync do |s3_sync|
   s3_sync.bucket                     = 'workbetta.io'
   s3_sync.region                     = 'eu-central-1'
-  s3_sync.aws_access_key_id          = 'AKIAI7MLWZX43LYE2ILA'
-  s3_sync.aws_secret_access_key      = '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'
+  s3_sync.aws_access_key_id          = ENV['BETTA_AWS_KEY']
+  s3_sync.aws_secret_access_key      = ENV['BETTA_AWS_SECRET']
 end
 
 activate :cloudfront do |cf|
-  cf.access_key_id = 'AKIAI7MLWZX43LYE2ILA'
-  cf.secret_access_key = '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'
+  cf.access_key_id = ENV['BETTA_AWS_KEY']
+  cf.secret_access_key = ENV['BETTA_AWS_SECRET']
   cf.distribution_id = 'E188EU800OR7PY'
 end
 

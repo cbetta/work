@@ -63,9 +63,9 @@ set :images_dir, 'images'
 set :layout, 'default'
 
 configure :build do
-  activate :minify_ss
+  activate :minify_css
   activate :minify_javascript
   activate :asset_hash
   activate :minify_html
-  activate :asset_host, :host => '//d1tzkbgve9rrhe.cloudfront.net'
+  activate :asset_host, host: '//d1tzkbgve9rrhe.cloudfront.net'
 end

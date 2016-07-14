@@ -12,6 +12,12 @@
     "icon" : "github"
   },
   {
+    "title" : "Nexmo Blog Post: Action Cable and SMS",
+    "description" : "A tutorial and demo for Nexmo showcasing how to integrate Nexmo SMS into Rails 5 with Action Cable",
+    "url" : "https://www.nexmo.com/blog/2016/07/14/building-customer-service-chat-rails-5-action-cable-sms-dr/",
+    "icon" : "file outline"
+  },
+  {
     "title" : "Nexmo Blog Post: Voice Alerts",
     "description" : "A tutorial and demo for Nexmo showcasing how to integrate Nexmo Text-to-Speech into Sinatra",
     "url" : "https://www.nexmo.com/blog/2016/06/21/building-voice-alerts-broadcast-system-using-ruby-nexmo-text-speech-api/",

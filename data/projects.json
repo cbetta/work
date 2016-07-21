@@ -6,6 +6,12 @@
     "icon" : "github"
   },
   {
+    "title" : "Gyft Ruby SDK",
+    "description" : "A Ruby SDK for the Gyft Developer API",
+    "url" : "https://github.com/cbetta/gyft",
+    "icon" : "github"
+  },
+  {
     "title" : "Doxie Ruby SDK",
     "description" : "A Ruby SDK for the Doxie Go Wifi scanner.",
     "url" : "https://github.com/cbetta/doxie",

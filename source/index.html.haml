@@ -36,6 +36,13 @@ default_description: Work Betta
       development including API design. We specialize in Rails, Ruby, Javascript, HTML,
       CSS and more.
 
+%h2.ui.horizontal.divider Clients
+
+#clients.ui.horizontal.segments
+  - data.clients.each do |client|
+    .ui.segment
+      = link_to image_tag("clients/#{client['image']}", class: 'ui image'), client['url']
+
 %h2.ui.horizontal.divider
   Recent projects
 

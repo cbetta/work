@@ -1,0 +1,17 @@
+[
+  {
+    "name" : "Nexmo",
+    "url" : "http://nexmo.com",
+    "image" : "nexmo.png"
+  },
+  {
+    "name" : "InterFAX",
+    "url" : "http://interfax.net",
+    "image" : "interfax.png"
+  },
+  {
+    "name" : "Perksy",
+    "url" : "http://getperksy.com",
+    "image" : "perksy.png"
+  }
+]

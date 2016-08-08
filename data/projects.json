@@ -6,10 +6,16 @@
     "icon" : "github"
   },
   {
+    "title" : "Interfax Ruby SDK",
+    "description" : "A Ruby SDK for the InterFAX REST API",
+    "url" : "https://github.com/interfax/interfax-ruby",
+    "icon" : "fax"
+  },
+  {
     "title" : "Gyft Ruby SDK",
     "description" : "A Ruby SDK for the Gyft Developer API",
     "url" : "https://github.com/cbetta/gyft",
-    "icon" : "github"
+    "icon" : "gift"
   },
   {
     "title" : "Doxie Ruby SDK",

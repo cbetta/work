@@ -13,4 +13,20 @@
   #services {
     display: block;
   }
+
+  #clients {
+    display: block;
+    overflow: auto;
+
+    .segment {
+      text-align: center;
+      width: 50%;
+      float: left;
+
+      img {
+        display: inline;
+        width: 100%;
+      }
+    }
+  }
 }

@@ -12,6 +12,12 @@
     "icon" : "fax"
   },
   {
+    "title" : "Interfax Node SDK",
+    "description" : "A Node SDK for the InterFAX REST API",
+    "url" : "https://github.com/interfax/interfax-nodejs",
+    "icon" : "fax"
+  },
+  {
     "title" : "Gyft Ruby SDK",
     "description" : "A Ruby SDK for the Gyft Developer API",
     "url" : "https://github.com/cbetta/gyft",

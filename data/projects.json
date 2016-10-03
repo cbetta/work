@@ -3,60 +3,77 @@
     "title" : "Nexmo CLI",
     "description" : "A CLI for the Nexmo communication API. Built in Javascript/ES6.",
     "url" : "https://github.com/nexmo/nexmo-cli",
-    "icon" : "github"
+    "icon" : "github",
+    "in_nav" : true
   },
   {
     "title" : "Interfax Ruby SDK",
     "description" : "A Ruby SDK for the InterFAX REST API",
     "url" : "https://github.com/interfax/interfax-ruby",
-    "icon" : "fax"
+    "icon" : "fax",
+    "in_nav" : true
   },
   {
     "title" : "Interfax Node SDK",
     "description" : "A Node SDK for the InterFAX REST API",
     "url" : "https://github.com/interfax/interfax-nodejs",
-    "icon" : "fax"
+    "icon" : "fax",
+    "in_nav" : true
   },
   {
     "title" : "Gyft Ruby SDK",
     "description" : "A Ruby SDK for the Gyft Developer API",
     "url" : "https://github.com/cbetta/gyft",
-    "icon" : "gift"
+    "icon" : "gift",
+    "in_nav" : true
   },
   {
     "title" : "Doxie Ruby SDK",
     "description" : "A Ruby SDK for the Doxie Go Wifi scanner.",
     "url" : "https://github.com/cbetta/doxie",
-    "icon" : "github"
+    "icon" : "github",
+    "in_nav" : true
+  },
+  {
+    "title" : "Nexmo Blog Post: ExpressJS and two-way SMS",
+    "description" : "A tutorial and demo for Nexmo showcasing how to integrate two-way Nexmo SMS into Express JS app",
+    "url" : "https://www.nexmo.com/blog/2016/09/29/building-interactive-delivery-notifications-system-using-expressjs-dr/",
+    "icon" : "file outline",
+    "in_nav" : false
   },
   {
     "title" : "Nexmo Blog Post: Action Cable and SMS",
     "description" : "A tutorial and demo for Nexmo showcasing how to integrate Nexmo SMS into Rails 5 with Action Cable",
     "url" : "https://www.nexmo.com/blog/2016/07/14/building-customer-service-chat-rails-5-action-cable-sms-dr/",
-    "icon" : "file outline"
+    "icon" : "file outline",
+    "in_nav" : false
   },
   {
     "title" : "Nexmo Blog Post: Voice Alerts",
     "description" : "A tutorial and demo for Nexmo showcasing how to integrate Nexmo Text-to-Speech into Sinatra",
     "url" : "https://www.nexmo.com/blog/2016/06/21/building-voice-alerts-broadcast-system-using-ruby-nexmo-text-speech-api/",
-    "icon" : "file outline"
+    "icon" : "file outline",
+    "in_nav" : false
   },
   {
     "title" : "Perksy API and Dashboard",
     "description" : "A Rails backend and API for the Perksy app. Built using Trailblazer.",
     "url" : "http://www.getperksy.com/",
-    "icon" : "linkify"
+    "icon" : "linkify",
+    "in_nav" : false
   },
   {
     "title" : "Nexmo Blog Post: Two Factor Authentication",
     "description" : "A tutorial and demo for Nexmo showcasing how to integrate Nexmo Verify into Rails",
     "url" : "https://www.nexmo.com/blog/2016/06/07/two-factor-authentication-2fa-ruby-rails-devise-nexmo-verify/",
-    "icon" : "file outline"
+    "icon" : "file outline",
+    "in_nav" : false
   },
   {
     "title" : "PayPal / Braintree Developer Relations",
     "description" : "Over three years experience with enterprise-level Developer Relations at Braintree/PayPal",
     "url" : "https://developers.braintreepayments.com",
-    "icon" : "user"
+    "icon" : "user",
+    "in_nav" : true
   }
 ]

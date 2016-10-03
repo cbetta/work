@@ -18,6 +18,7 @@
       %i.icon.dropdown
       .menu
         - data.projects.each do |project|
+          - next unless project.in_nav
           %a.item{href: project['url']}
             %i.icon{class: project['icon']}
             = project['title']

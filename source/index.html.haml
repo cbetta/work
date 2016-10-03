@@ -55,6 +55,17 @@ default_description: Work Betta
         .description= project['description']
 
 %h2.ui.horizontal.divider
+  Recent articles
+
+.ui.relaxed.divided.list.inverted
+  - data.articles.each do |article|
+    .item
+      %i.large.middle.aligned.icon.icon-fixed-width{class: article['icon']}
+      .content
+        %a.header{href: article['url']}= article['title']
+        .description= article['description']
+
+%h2.ui.horizontal.divider
   %i.icon.code
 
 .company-info

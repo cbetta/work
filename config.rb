@@ -20,7 +20,8 @@ helpers do
   end
 
   def title
-    'Work Betta'
+    @title = "#{current_page.data.title} - " if current_page.data.title
+    @title
   end
 
   def image

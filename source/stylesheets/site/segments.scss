@@ -2,10 +2,22 @@
   border: 0px;
   background-color: inherit;
 
-  .segment {
+  & > .segment {
     background-color: #222 !important;
     border: 0;
     border-radius: 0;
+    min-width: 33%;
+  }
+
+  .segments {
+    background-color: #222;
+    border: 1px solid #444;
+    min-height: 13.3em;
+
+    .segment {
+      background-color: #212221;
+      padding: 0.5em 1em;
+    }
   }
 }
 

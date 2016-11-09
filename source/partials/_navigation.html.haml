@@ -9,9 +9,9 @@
       %strong Work
       &nbsp;
       %em Betta
-    %a.item{href: "mailto:work@betta.io", class: active('/blog')}
-      %i.icon.mail.outline.left
-      Contact
+    %a.ui.inverted.item{href: "https://betta.io"}
+      %i.icon.user
+      About
     .ui.dropdown.item
       %i.icon.code
       Projects
@@ -22,6 +22,7 @@
           %a.item{href: project['url']}
             %i.icon{class: project['icon']}
             = project['title']
-    %a.ui.right.inverted.item{href: "https://betta.io"}
-      %i.icon.user
-      About
+    .ui.right.item
+      %a{ href: "mailto:work@betta.io", class: active('/blog')}
+        %i.icon.mail.outline.left
+        Contact

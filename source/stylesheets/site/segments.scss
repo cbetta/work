@@ -1,4 +1,20 @@
-#services, #clients {
+#clients {
+  border: 0px;
+  background-color: inherit;
+
+  .segments {
+    background-color: #222;
+
+    .segment {
+      background-color: #212221;
+      padding: 0.5em 1em;
+      border-bottom: 1px solid #444;
+      min-height: 2em;
+    }
+  }
+}
+
+#services {
   border: 0px;
   background-color: inherit;
 
@@ -11,15 +27,16 @@
 
   .segments {
     background-color: #222;
-    border: 1px solid #444;
-    min-height: 13.3em;
 
     .segment {
       background-color: #212221;
       padding: 0.5em 1em;
+      border-bottom: 1px solid #444;
+      min-height: 2em;
     }
   }
 }
+
 
 @media (max-width: 660px) {
   #services {

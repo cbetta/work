@@ -13,5 +13,10 @@
     "name" : "Perksy",
     "url" : "http://getperksy.com",
     "image" : "perksy.png"
+  },
+  {
+    "name" : "Virgil Security",
+    "url" : "http://virgilsecurity.com",
+    "image" : "virgil.png"
   }
 ]

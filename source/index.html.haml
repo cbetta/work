@@ -12,16 +12,6 @@ default_description: Work Betta
   %br
   Developer Relations consulting
 
-%br
-
-.ui.centered.grid
-  .row
-    %a.ui.left.labeled.button{ href: '/services' }
-      %span.ui.basic.right.pointing.label
-        Reserve a
-
-      %span.ui.basic.inverted.button
-        Expert Developer Experience Review
 
 %br
 %br
@@ -42,12 +32,11 @@ default_description: Work Betta
       .ui.inverted.segment Event Strategy
       .ui.inverted.segment Content Strategy
       .ui.inverted.segment Evangelism Training
-      .ui.inverted.segment Advocate Training
       .ui.inverted.segment Presenter Training
 
   .ui.segment
     %h2.ui.header.inverted
-      %i.ui.fire.extinguisher.icon
+      %i.ui.laptop.icon
       .content
         .sub.header Developer
         Experience
@@ -57,9 +46,9 @@ default_description: Work Betta
         Expert DX review
 
       .ui.inverted.segment
-        Expert Onboarding Review
+        Onboarding Review
       .ui.inverted.segment DX Design
-      .ui.inverted.segment DX Workshops & Training
+      .ui.inverted.segment Workshops & Training
 
   .ui.segment
     %h2.ui.header.inverted
@@ -68,13 +57,10 @@ default_description: Work Betta
         .sub.header Developer
         Engineering
     .ui.segments
-      .ui.inverted.segment
-        SDK Development
-        %br
-        %small Ruby, JS, Python, PHP & .NET
+      .ui.inverted.segment SDK Development
       .ui.inverted.segment API Specification
       .ui.inverted.segment API Development
-      .ui.inverted.segment Documentation & Tutorials
+      .ui.inverted.segment Docs & Tutorials
 
 %br
 %br
@@ -83,10 +69,10 @@ default_description: Work Betta
 .ui.centered.grid
   .row
     %a.ui.left.labeled.button{ href: '/services' }
-      %span.ui.basic.right.pointing.label
+      %span.ui.white.basic.right.pointing.label
         Reserve a
 
-      %span.ui.basic.inverted.button
+      %span.ui.white.basic.inverted.button
         Expert Developer Experience Review
 
 %br
@@ -122,12 +108,4 @@ default_description: Work Betta
         %a.header{href: article['url']}= article['title']
         .description= article['description']
 
-%h2.ui.horizontal.divider
-  %i.icon.code
-
-.company-info
-  %h3.ui.header.centered
-    Work Betta Ltd is registered in England and Wales with company number 10168553
-
-  %h3.ui.header.centered
-    20-22 Wenlock Road, London, England, N1 7GU
+= partial 'partials/footer'

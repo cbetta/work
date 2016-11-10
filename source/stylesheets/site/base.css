@@ -9,3 +9,11 @@ a,
 .ui.inverted.list .item a:not(.ui):hover {
   color: #fff !important;
 }
+
+
+
+@media (max-width: 660px) {
+  .ui.image.large {
+    max-width: 90%;
+  }
+}

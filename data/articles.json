@@ -1,38 +1,38 @@
 [
   {
-    "title" : "Nexmo Blog Post: ExpressJS and two-way SMS",
-    "description" : "A tutorial and demo for Nexmo showcasing how to integrate two-way Nexmo SMS into Express JS app",
-    "url" : "https://www.nexmo.com/blog/2016/09/29/building-interactive-delivery-notifications-system-using-expressjs-dr/",
-    "icon" : "text telephone"
+    "title" : "Developer Experience: Emails",
+    "description" : "The 1st in a series of highlights in Developer Experience.",
+    "url" : "https://betta.io/blog/2017/01/26/developer-experience-highlights-emails/",
+    "icon" : "envelope"
+  },
+  {
+    "title" : "Developer Onboarding: Twilio",
+    "description" : "The 4th in a series documenting the onboarding experience of developer focussed products.",
+    "url" : "https://betta.io/blog/2017/01/09/developer-experience-review-twilio/",
+    "icon" : "spy"
+  },
+  {
+    "title" : "Developer Experience lessons from LEGO",
+    "description" : "A write up of a talk given at DevRelCon London 2016 and API Days Paris 2016.",
+    "url" : "https://betta.io/blog/2016/12/14/what-developer-experience-could-learn-from-lego/",
+    "icon" : "space shuttle"
+  },
+  {
+    "title" : "Developer Onboarding: Stripe",
+    "description" : "The 3rd in a series documenting the onboarding experience of developer focussed products.",
+    "url" : "https://betta.io/blog/2016/10/16/developer-experience-review-stripe/",
+    "icon" : "spy"
   },
   {
     "title" : "Developer Onboarding: Pusher",
-    "description" : "The second in a series documenting the current onboarding experience of developer focussed products",
+    "description" : "The 2nd in a series documenting the onboarding experience of developer focussed products.",
     "url" : "https://betta.io/blog/2016/08/31/developer-experience-review-pusher/",
     "icon" : "spy"
   },
   {
     "title" : "Developer Onboarding: SendGrid",
-    "description" : "The first in a series documenting the current onboarding experience of developer focussed products",
+    "description" : "The 1st in a series documenting the onboarding experience of developer focussed products.",
     "url" : "https://betta.io/blog/2016/08/29/developer-experience-review-sendgrid/",
     "icon" : "spy"
-  },
-  {
-    "title" : "Nexmo Blog Post: Action Cable and SMS",
-    "description" : "A tutorial and demo for Nexmo showcasing how to integrate Nexmo SMS into Rails 5 with Action Cable",
-    "url" : "https://www.nexmo.com/blog/2016/07/14/building-customer-service-chat-rails-5-action-cable-sms-dr/",
-    "icon" : "text telephone"
-  },
-  {
-    "title" : "Nexmo Blog Post: Voice Alerts",
-    "description" : "A tutorial and demo for Nexmo showcasing how to integrate Nexmo Text-to-Speech into Sinatra",
-    "url" : "https://www.nexmo.com/blog/2016/06/21/building-voice-alerts-broadcast-system-using-ruby-nexmo-text-speech-api/",
-    "icon" : "text telephone"
-  },
-  {
-    "title" : "Nexmo Blog Post: Two Factor Authentication",
-    "description" : "A tutorial and demo for Nexmo showcasing how to integrate Nexmo Verify into Rails",
-    "url" : "https://www.nexmo.com/blog/2016/06/07/two-factor-authentication-2fa-ruby-rails-devise-nexmo-verify/",
-    "icon" : "text telephone"
   }
 ]

@@ -5,6 +5,21 @@
     "image" : "nexmo.png"
   },
   {
+    "name" : "Virgil Security",
+    "url" : "http://virgilsecurity.com",
+    "image" : "virgil.png"
+  },
+  {
+    "name" : "Grakn",
+    "url" : "http://grakn.ai",
+    "image" : "grakn.png"
+  },
+  {
+    "name" : "KataCoda",
+    "url" : "http://katacoda.com",
+    "image" : "katacoda.png"
+  },
+  {
     "name" : "InterFAX",
     "url" : "http://interfax.net",
     "image" : "interfax.png"
@@ -13,10 +28,5 @@
     "name" : "Perksy",
     "url" : "http://getperksy.com",
     "image" : "perksy.png"
-  },
-  {
-    "name" : "Virgil Security",
-    "url" : "http://virgilsecurity.com",
-    "image" : "virgil.png"
   }
 ]

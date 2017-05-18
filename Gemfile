@@ -1,15 +1,15 @@
 source 'http://rubygems.org'
 
-ruby '2.3.1'
+ruby '2.4.0'
 
 gem 'builder'
-gem 'middleman', '4.1.9'
+gem 'middleman', '4.2.1'
 gem 'middleman-cloudfront', github: 'andrusha/middleman-cloudfront'
 gem 'middleman-google-analytics'
 gem 'middleman-livereload'
 gem 'middleman-s3_sync'
 gem 'middleman-search_engine_sitemap'
-gem 'middleman-sprockets', '4.0.0.rc.3'
+gem 'middleman-sprockets'
 gem 'middleman-minify-html'
 gem 'kramdown'
 gem 'turbolinks', require: false

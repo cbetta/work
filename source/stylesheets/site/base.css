@@ -1,3 +1,7 @@
+body, html {
+  background-color: #222;
+}
+
 body.pushable > .pusher {
   background-color: #222;
   color: white;

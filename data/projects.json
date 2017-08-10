@@ -1,5 +1,12 @@
 [
   {
+    "title" : "Virgil Security DX Design",
+    "description" : "Redesigned onboaring and Get Started Guides for Virgil Security",
+    "url" : "https://developer.virgilsecurity.com/docs/get-started/encrypted-communication",
+    "icon" : "lock",
+    "in_nav" : true
+  },
+  {
     "title" : "Nexmo CLI",
     "description" : "A CLI for the Nexmo communication API. Built in Javascript/ES6.",
     "url" : "https://github.com/nexmo/nexmo-cli",
@@ -7,16 +14,9 @@
     "in_nav" : true
   },
   {
-    "title" : "Interfax Ruby SDK",
-    "description" : "A Ruby SDK for the InterFAX REST API",
-    "url" : "https://github.com/interfax/interfax-ruby",
-    "icon" : "fax",
-    "in_nav" : true
-  },
-  {
-    "title" : "Interfax Node SDK",
-    "description" : "A Node SDK for the InterFAX REST API",
-    "url" : "https://github.com/interfax/interfax-nodejs",
+    "title" : "Interfax SDK redesign",
+    "description" : "A set of SDKs for the InterFAX REST API",
+    "url" : "https://github.com/interfax/",
     "icon" : "fax",
     "in_nav" : true
   },
@@ -25,20 +25,13 @@
     "description" : "A Ruby SDK for the Gyft Developer API",
     "url" : "https://github.com/cbetta/gyft",
     "icon" : "gift",
-    "in_nav" : true
+    "in_nav" : false
   },
   {
     "title" : "Doxie Ruby SDK",
     "description" : "A Ruby SDK for the Doxie Go Wifi scanner.",
     "url" : "https://github.com/cbetta/doxie",
     "icon" : "github",
-    "in_nav" : true
-  },
-  {
-    "title" : "Perksy API and Dashboard",
-    "description" : "A Rails backend and API for the Perksy app. Built using Trailblazer.",
-    "url" : "http://www.getperksy.com/",
-    "icon" : "linkify",
     "in_nav" : false
   },
   {
@@ -46,6 +39,6 @@
     "description" : "Over three years experience with enterprise-level Developer Relations at Braintree/PayPal",
     "url" : "https://developers.braintreepayments.com",
     "icon" : "user",
-    "in_nav" : true
+    "in_nav" : false
   }
 ]

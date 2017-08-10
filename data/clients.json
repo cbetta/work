@@ -1,5 +1,15 @@
 [
   {
+    "name" : "Twitter",
+    "url" : "http://twitter.com",
+    "image" : "twitter.png"
+  },
+  {
+    "name" : "Zendesk",
+    "url" : "http://zendesk.com",
+    "image" : "zendesk.png"
+  },
+  {
     "name" : "Nexmo",
     "url" : "http://nexmo.com",
     "image" : "nexmo.png"
@@ -15,18 +25,8 @@
     "image" : "grakn.png"
   },
   {
-    "name" : "KataCoda",
-    "url" : "http://katacoda.com",
-    "image" : "katacoda.png"
-  },
-  {
     "name" : "InterFAX",
     "url" : "http://interfax.net",
     "image" : "interfax.png"
-  },
-  {
-    "name" : "Perksy",
-    "url" : "http://getperksy.com",
-    "image" : "perksy.png"
   }
 ]

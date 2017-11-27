@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+- 2.4.2
+script:
+- bundle exec middleman build --no-parallel
+- bundle exec middleman s3_sync
+branches:
+  only:
+  - master
+env:
+  global:
+    secure: nrolNM7Db3n3+mIfaxEge5YacUCq6NZpFWyZ5mRcFc51uWYapdko1Lp8e8snL7ft8zvVMbrC3rrvKkwHnqcJ0yBqHlLY5fE2Sl1gHH7cQiA5rKMam6hjZ7weNzUjZO0U8voQDZ3eUmsryAB3gMGfKRLQW92/80IEf/xkG48v1pfjS0Q38XzehQAgV+4vBsyTFGg75cYtoY3EFIDH9aCfRCC1vHqGUuouxko2tiIT0iOEYgWAjm23OAHRt57Xq6ZUaO5GlDe6kfg8j395+Yr+MFgRtoF9kcZK5PFsO8Mr5rNWraHwOJ4oSszMokatDNoj2dJGieaVewcuCfDAdjft2b6EGfZawAKBB5bKf4QqQVcy2GFMGO8huqXBK94UNiFn1kgT0Zm5CkRR2KDKTojJvTqa+uSlAiRyHxZEkCCa6Mv+yogzhBfPyh1WyIkURhsNm5ec+JDQWRDm0Rev9q/g7Zg8XHd3RqaYlzTa3kXs2jAgpJfL3ofLGM/Zn87qiHdBl3skC1H7OaTaaHBrsrtMr5HRtIRyZb9oCsDKc/x+/UmCmHOtTFN39W1otmEKalyAB/PpN3+aP5t7kY3AHdHfZ0uHUw2ulWb/lNv0t+AAUTSA3heMQtR7l5sMnm/7ellDZ4+fIsUTDV/TJ3aJupkQn6vT/2vuYMfxho1cz2w6gEw=

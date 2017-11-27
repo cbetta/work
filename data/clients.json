@@ -1,10 +1,5 @@
 [
   {
-    "name" : "Twitter",
-    "url" : "http://twitter.com",
-    "image" : "twitter.png"
-  },
-  {
     "name" : "Zendesk",
     "url" : "http://zendesk.com",
     "image" : "zendesk.png"

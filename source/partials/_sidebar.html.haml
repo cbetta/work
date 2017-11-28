@@ -5,18 +5,12 @@
     %a.name{href: '/'}
       %strong Work
       Betta
-  %a.item{href: "mailto:work@betta.io"}
+  %a.item{href: "mailto:hello@hoopy.io"}
     %i.icon.mail.outline.left
     Contact
-  .ui.item
-    %i.icon.code
-    Projects
-    .menu
-      - data.projects.each do |project|
-        - next unless project.in_nav
-        %a.item{href: project['url']}
-          %i.icon{ class: project['icon'] }
-          = project['title']
   %a.ui.right.inverted.item{href: "https://betta.io"}
     %i.icon.user
-    About
+    About Cristiano
+  %a.ui.right.inverted.item{href: "https://hoopy.io"}
+    %i.icon.industry
+    About Hoopy

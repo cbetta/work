@@ -5,104 +5,27 @@ default_description: Work Betta
 = image_tag 'workbetta.png', class: 'ui small circular image centered'
 
 %h1.ui.header.centered.name.inverted
-  %strong Work Betta Ltd
-  specializes in
+  %strong Work Betta
+  is
   %br
-  bespoke Developer Experience
+  now part of
+  %strong
+    %a{ href: 'https://hoopy.io' } Hoopy
   %br
-  design and consulting
-
-
-%br
-%br
-
-%h2.ui.horizontal.divider Our services
-
-%br
-
-#services.ui.horizontal.segments
-  .ui.segment
-    %h2.ui.header.inverted
-      %i.ui.users.icon
-      .content
-        .sub.header Developer
-        Relations
-
-    .ui.segments
-      .ui.inverted.segment Event Workshops
-      .ui.inverted.segment Hackathon Workshops
-      .ui.inverted.segment Evangelist Training
-      .ui.inverted.segment Presenter Training
-
-  .ui.segment
-    %h2.ui.header.inverted
-      %i.ui.laptop.icon
-      .content
-        .sub.header Developer
-        Experience
-
-    .ui.segments
-      .ui.inverted.segment
-        DX Audits
-
-      .ui.inverted.segment
-        DX Analysis
-      .ui.inverted.segment DX Design
-      .ui.inverted.segment Workshops & Training
-
-  .ui.segment
-    %h2.ui.header.inverted
-      %i.ui.code.icon
-      .content
-        .sub.header Developer
-        Engineering
-    .ui.segments
-      .ui.inverted.segment API & SDK Audits
-      .ui.inverted.segment API & SDK Development
-      .ui.inverted.segment Tutorial development
-      .ui.inverted.segment Documentation
+  %br
+  %a{ href: 'https://hoopy.io' }
+    The Developer Relations Consultancy
 
 %br
 %br
 %br
 
+.ui.center.aligned.grid
+  %a.ui.secondary.right.labeled.icon.basic.inverted.white.button{ href: '/blog/' }
+    %i.icon.external
+    Hoopy.io
 
-%h2.ui.horizontal.divider Partners
-
-- data.partners.each_slice(2) do |partners|
-  #partners.ui.horizontal.segments
-    - partners.each do |partner|
-      .ui.segment
-        = link_to image_tag("partners/#{partner['image']}", class: 'ui image'), partner['url']
-
-%h2.ui.horizontal.divider Clients
-
-- data.clients.each_slice(2) do |clients|
-  #clients.ui.horizontal.segments
-    - clients.each do |client|
-      .ui.segment
-        = link_to image_tag("clients/#{client['image']}", class: 'ui image'), client['url']
-
-%h2.ui.horizontal.divider
-  Recent projects
-
-.ui.relaxed.divided.list.inverted
-  - data.projects.each do |project|
-    .item
-      %i.large.middle.aligned.icon.icon-fixed-width{class: project['icon']}
-      .content
-        %a.header{href: project['url']}= project['title']
-        .description= project['description']
-
-%h2.ui.horizontal.divider
-  Recent articles
-
-.ui.relaxed.divided.list.inverted
-  - data.articles.each do |article|
-    .item
-      %i.large.middle.aligned.icon.icon-fixed-width{class: article['icon']}
-      .content
-        %a.header{href: article['url']}= article['title']
-        .description= article['description']
+%br
+%br
 
 = partial 'partials/footer'
